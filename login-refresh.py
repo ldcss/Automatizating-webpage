@@ -40,7 +40,7 @@ if __name__ == "__main__":
         xpathWrite("//input[@id='xxsenha']", "#PASSWORD-HERE")
         xpathClickNotRobot("//input[@class='is-checkradio has-background-color is-success']") #Clicking not-robot button
         sleep(2)
-        browser.get("http://www.arteempc.com.br/admin/clientes.php?tipo=todos")
+        browser.get("#URL-CLIENT-PAGE-HERE")
         xpathClick('//input[@id="checkAll"]')
         xpathClickNotRobot('//input[@id="check2All"]') #accessing all clients
         sleep(3)
