@@ -47,11 +47,3 @@ if __name__ == "__main__":
         xpathClick('//i[@class="fa fa-globe fa-2x"]') #showing all clients in maps
         loopRefresh(0.5, 10)#get the minute for login time, then close the browser and login again. and getting the seconds for refreshing the map
         closingTabs()
-
-
-    
-    
-    
-
-
-        
